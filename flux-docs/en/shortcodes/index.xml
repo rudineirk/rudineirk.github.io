@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shortcodes on FluxDocs Theme</title>
+    <link>https://rudineirk.github.io/flux-docs/en/shortcodes/</link>
+    <description>Recent content in Shortcodes on FluxDocs Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://rudineirk.github.io/flux-docs/en/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notice</title>
+      <link>https://rudineirk.github.io/flux-docs/en/shortcodes/notice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/en/shortcodes/notice/</guid>
+      <description> Notice Examples A success notice  An info notice  A warning notice  An danger notice  Usage {{% notice success %}} A success notice {{% /notice %}} {{% notice info %}} An info notice {{% /notice %}} {{% notice warning %}} A warning notice {{% /notice %}} {{% notice danger %}} An danger notice {{% /notice %}}</description>
+    </item>
+    
+    <item>
+      <title>Expand</title>
+      <link>https://rudineirk.github.io/flux-docs/en/shortcodes/expand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/en/shortcodes/expand/</guid>
+      <description>Expand Examples   Click here   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis quis diam luctus venenatis. Integer consectetur tortor non varius posuere. Vivamus vel felis nunc. Mauris nec hendrerit sem, ullamcorper ullamcorper eros. Morbi feugiat, neque non pellentesque consequat, tortor nulla sagittis orci, id consectetur diam risus et quam. Pellentesque tincidunt purus in nisl egestas, porta feugiat libero mollis. Integer maximus libero ligula, id dignissim dolor cursus sit amet.</description>
+    </item>
+    
+    <item>
+      <title>Icons</title>
+      <link>https://rudineirk.github.io/flux-docs/en/shortcodes/icons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/en/shortcodes/icons/</guid>
+      <description>Icons Examples   tasks
+ pen-square
+ instagram
+logo
+Usage # With fontawesome: {{&amp;lt; icon icon=&amp;#34;fa-tasks&amp;#34; &amp;gt;}} {{&amp;lt; icon icon=&amp;#34;fa-pen-square&amp;#34; color=&amp;#34;red&amp;#34; &amp;gt;}} {{&amp;lt; icon icon=&amp;#34;fa-instagram&amp;#34; brand=&amp;#34;true&amp;#34; &amp;gt;}} # With images: {{&amp;lt; icon icon=&amp;#34;/img/icon.svg&amp;#34; &amp;gt;}} Fontawesome</description>
+    </item>
+    
+    <item>
+      <title>Cards</title>
+      <link>https://rudineirk.github.io/flux-docs/en/shortcodes/cards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/en/shortcodes/cards/</guid>
+      <description> Cards Examples 
+Basic Were to start
+  
+Markdown Markdown syntax examples using theme
+  
+Shortcodes Custom theme features
+   
+Usage # With 3 cards per row on medium screens and up: {{% cards %}} {{% card link=&amp;#34;/link1&amp;#34; %}} {{&amp;lt; icon icon=&amp;#34;fa-tasks&amp;#34; &amp;gt;}} #### Card 1 Card description {{% /card %}} {{% card link=&amp;#34;/link2&amp;#34; %}} {{&amp;lt; icon icon=&amp;#34;fa-pen-square&amp;#34; &amp;gt;}} #### Card 2 Card 2 description {{% /card %}} {{% /cards %}}# With 4 cards per row on medium screens and up: {{% cards %}} {{% card link=&amp;#34;/link1&amp;#34; size=&amp;#34;4&amp;#34; %}} {{&amp;lt; icon icon=&amp;#34;fa-tasks&amp;#34; &amp;gt;}} #### Card 1 Card description {{% /card %}} {{% card link=&amp;#34;/link2&amp;#34; size=&amp;#34;4&amp;#34; %}} {{&amp;lt; icon icon=&amp;#34;fa-pen-square&amp;#34; &amp;gt;}} #### Card 2 Card 2 description {{% /card %}} {{% /cards %}}</description>
+    </item>
+    
+    <item>
+      <title>Images and videos</title>
+      <link>https://rudineirk.github.io/flux-docs/en/shortcodes/media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/en/shortcodes/media/</guid>
+      <description> Images and videos Examples Video
+ Image
+Usage {{% video url=&amp;#34;/video/video-url&amp;#34; width=&amp;#34;480&amp;#34; height=&amp;#34;348&amp;#34; controls=&amp;#34;false&amp;#34; muted=&amp;#34;true&amp;#34; autoplay=&amp;#34;true&amp;#34; %}} {{% image url=&amp;#34;/img/image-url&amp;#34; width=&amp;#34;480&amp;#34; height=&amp;#34;348&amp;#34; %}}</description>
+    </item>
+    
+    <item>
+      <title>Flowcharts (Mermaid)</title>
+      <link>https://rudineirk.github.io/flux-docs/en/shortcodes/mermaid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/en/shortcodes/mermaid/</guid>
+      <description> Flowcharts (Mermaid) Examples graph TD; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]  Usage {{&amp;lt; mermaid align=&amp;#34;left&amp;#34; &amp;gt;}} graph LR; A[Hard edge] --&amp;gt;|Link text| B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two] {{&amp;lt; /mermaid &amp;gt;}}</description>
+    </item>
+    
+    <item>
+      <title>Roadmap</title>
+      <link>https://rudineirk.github.io/flux-docs/en/shortcodes/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/en/shortcodes/roadmap/</guid>
+      <description> Roadmap Examples  1.0 Theme Done item In progress item Planned item  Features Roadmap Changelog Todo Lists    1.1 Theme Done item In progress item Planned item  Features Roadmap Changelog Todo Lists     Done In progress Planned   Usage {{&amp;lt; roadmap &amp;gt;}} {{% roadmap-version %}} ### Version 1 #### Section 1 * [x] Done item * [ ] In progress item * Planned item #### Section 2 * [x] Item 1 * [x] Item 2 * [x] Item 3 {{% /roadmap-version %}} {{% roadmap-version %}} ### Version 2 #### Section 1 * [x] Done item * [ ] In progress item * Planned item #### Section 2 * [x] Item 1 * [x] Item 2 * [x] Item 3 {{% /roadmap-version %}} {{&amp;lt; /roadmap &amp;gt;}}</description>
+    </item>
+    
+    <item>
+      <title>Changelog</title>
+      <link>https://rudineirk.github.io/flux-docs/en/shortcodes/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/en/shortcodes/changelog/</guid>
+      <description>Changelog Examples Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis quis diam luctus venenatis. Integer consectetur tortor non varius posuere. Vivamus vel felis nunc. Mauris nec hendrerit sem, ullamcorper ullamcorper eros. Morbi feugiat, neque non pellentesque consequat, tortor nulla sagittis orci, id consectetur diam risus et quam. Pellentesque tincidunt purus in nisl egestas, porta feugiat libero mollis. Integer maximus libero ligula, id dignissim dolor cursus sit amet.</description>
+    </item>
+    
+    <item>
+      <title>Include</title>
+      <link>https://rudineirk.github.io/flux-docs/en/shortcodes/include/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/en/shortcodes/include/</guid>
+      <description> Include Examples Included content
+Item 1 Item 2  Usage {{% include file=&amp;#34;extraContent/example.en.md&amp;#34; %}}</description>
+    </item>
+    
+  </channel>
+</rss>
