@@ -101,7 +101,7 @@
   "section": "Shortcodes",
   "tags": ["shortcodes"],
   "description": "",
-  "content": " Fluxogramas (Mermaid) Exemplos graph TD; A[Borda reta] --|Link text| B(Borda redonda) B -- C{Decisão} C --|Um| D[Resultado um] C --|Dois| E[Resultado dois]  Uso {{\u0026lt; mermaid align=\u0026#34;left\u0026#34; \u0026gt;}} graph TD; A[Borda reta] --\u0026gt;|Link text| B(Borda redonda) B --\u0026gt; C{Decisão} C --\u0026gt;|Um| D[Resultado um] C --\u0026gt;|Dois| E[Resultado dois] {{\u0026lt; /mermaid \u0026gt;}}"
+  "content": " Fluxogramas (Mermaid) Exemplos graph TD; A[Borda reta] --|Link text| B(Borda redonda) B -- C{Decisão} C --|Um| D[Resultado um] C --|Dois| E[Resultado dois]  Uso {{\u0026lt; mermaid align=\u0026#34;center\u0026#34; \u0026gt;}} graph TD; A[Borda reta] --\u0026gt;|Link text| B(Borda redonda) B --\u0026gt; C{Decisão} C --\u0026gt;|Um| D[Resultado um] C --\u0026gt;|Dois| E[Resultado dois] {{\u0026lt; /mermaid \u0026gt;}}"
 },
 {
   "uri": "/flux-docs/pt/shortcodes/roadmap/",

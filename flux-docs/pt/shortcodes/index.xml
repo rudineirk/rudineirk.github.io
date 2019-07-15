@@ -74,7 +74,7 @@ Uso {{% video url=&amp;#34;/video/video-url&amp;#34; width=&amp;#34;480&amp;#34;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rudineirk.github.io/flux-docs/pt/shortcodes/mermaid/</guid>
-      <description> Fluxogramas (Mermaid) Exemplos graph TD; A[Borda reta] --|Link text| B(Borda redonda) B -- C{Decisão} C --|Um| D[Resultado um] C --|Dois| E[Resultado dois]  Uso {{&amp;lt; mermaid align=&amp;#34;left&amp;#34; &amp;gt;}} graph TD; A[Borda reta] --&amp;gt;|Link text| B(Borda redonda) B --&amp;gt; C{Decisão} C --&amp;gt;|Um| D[Resultado um] C --&amp;gt;|Dois| E[Resultado dois] {{&amp;lt; /mermaid &amp;gt;}}</description>
+      <description> Fluxogramas (Mermaid) Exemplos graph TD; A[Borda reta] --|Link text| B(Borda redonda) B -- C{Decisão} C --|Um| D[Resultado um] C --|Dois| E[Resultado dois]  Uso {{&amp;lt; mermaid align=&amp;#34;center&amp;#34; &amp;gt;}} graph TD; A[Borda reta] --&amp;gt;|Link text| B(Borda redonda) B --&amp;gt; C{Decisão} C --&amp;gt;|Um| D[Resultado um] C --&amp;gt;|Dois| E[Resultado dois] {{&amp;lt; /mermaid &amp;gt;}}</description>
     </item>
     
     <item>
