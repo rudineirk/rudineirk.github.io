@@ -16,8 +16,8 @@
   "content": " Notice Exemplos Uma nota de sucesso  Uma nota de informações  Uma nota de aviso  Uma nota de perigo  Uso {{% notice success %}} Uma nota de sucesso {{% /notice %}} {{% notice info %}} Uma nota de informações {{% /notice %}} {{% notice warning %}} Uma nota de aviso {{% /notice %}} {{% notice danger %}} Uma nota de perigo {{% /notice %}}"
 },
 {
-  "uri": "/flux-docs/pt/example/subpage/",
-  "title": "Sub-página",
+  "uri": "/flux-docs/pt/example/section-page/",
+  "title": "Seção como página",
   "section": "FluxDocs",
   "tags": [],
   "description": "",
@@ -118,6 +118,22 @@
   "tags": ["shortcodes"],
   "description": "",
   "content": " Icones Exemplos   tarefas (tasks)\n caneta-quadrado (pen-square)\n instagram\nlogo\nUso # Com fontawesome: {{\u0026lt; icon icon=\u0026#34;fa-tasks\u0026#34; \u0026gt;}} {{\u0026lt; icon icon=\u0026#34;fa-pen-square\u0026#34; color=\u0026#34;red\u0026#34; \u0026gt;}} {{\u0026lt; icon icon=\u0026#34;fa-instagram\u0026#34; brand=\u0026#34;true\u0026#34; \u0026gt;}} # Com images: {{\u0026lt; icon icon=\u0026#34;/img/icon.svg\u0026#34; \u0026gt;}} Fontawesome\n"
+},
+{
+  "uri": "/flux-docs/pt/example/fluid-only/",
+  "title": "Página somente com parâmetro fluid",
+  "section": "Exemplo de página cheia",
+  "tags": [],
+  "description": "",
+  "content": "Página normal com parâmetro fluid\n"
+},
+{
+  "uri": "/flux-docs/pt/example/fullmenu-only/",
+  "title": "Página somente com parâmetro fullmenu",
+  "section": "Exemplo de página cheia",
+  "tags": [],
+  "description": "",
+  "content": "Página normal com parâmetro fullmenu\n"
 },
 {
   "uri": "/flux-docs/pt/shortcodes/cards/",

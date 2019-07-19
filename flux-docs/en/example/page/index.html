@@ -8,15 +8,18 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1563497822" rel="stylesheet">
-<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1563497822" rel="stylesheet">
-<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1563497822" rel="stylesheet">
-<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1563497822" rel="stylesheet">
-<link href="/flux-docs/assets/vendor/mermaid/mermaid.css?1563497822" rel="stylesheet">
-<link href="/flux-docs/assets/css/theme.css?1563497822" rel="stylesheet">
-<link href="/flux-docs/assets/css/code-highlight.css?1563497822" rel="stylesheet">
+<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1563511630" rel="stylesheet">
+<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1563511630" rel="stylesheet">
+<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1563511630" rel="stylesheet">
+<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1563511630" rel="stylesheet">
+<link href="/flux-docs/assets/vendor/mermaid/mermaid.css?1563511630" rel="stylesheet">
+<link href="/flux-docs/assets/css/theme.css?1563511630" rel="stylesheet">
+<link href="/flux-docs/assets/css/code-highlight.css?1563511630" rel="stylesheet">
 </head>
   <body>
+    
+    
+    <div class="page page-bg">
 
 
 <a name="page-top"></a>
@@ -43,10 +46,14 @@
   </div>
 </div>
 
+  
+
+  <div class="content-wrapper">
+    
 
 
 
-<nav role="navigation" class="border-bottom box-shadow breadcrumb-bg breadcrumb-nav">
+<nav role="navigation" class="breadcrumb-bg breadcrumb-nav">
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 col-md-8 col-lg-9">
@@ -95,73 +102,11 @@
 <div class="container-fluid page-content page-content-fluid">
   <div class="row">
     
-      <div class="col-xl-10 col-lg-9 col-sm-8">
-
-
-
-
-
-
-<div class="page-toc page-toc-fluid">
-  <label class="toc-label"><i class="fas fa-list-alt"></i> Table of Contents</label>
-  
-</div>
-
-
-<p>Normal page</p>
-
-
-
-  
-  
-  
-  
-    
-    
-    
-      
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-
-    
-      <div class="container-fluid page-footer">
-        <div class="row">
-          <div class="col-6 nav-btn-container">
-              
-                <a href="/flux-docs/en/example/subpage/">
-                  <button class="btn flex-column">
-                    <i class="fas fa-chevron-left"></i>
-                    <span class="nav-btn-label">Subpage</span>
-                  </button>
-                </a>
-              
-          </div>
-          <div class="col-6 nav-btn-container">
-            
-              <a href="/flux-docs/en/example/subsection/">
-                <button class="btn flex-column">
-                  <i class="fas fa-chevron-right"></i>
-                  <span class="nav-btn-label">Sub-section</span>
-                </button></a>
-            
-          </div>
-        </div>
-      </div>
-    
-  
-
-</div>
-      <div class="col-xl-2 col-lg-3 col-sm-4 order-first">
+      <div class="col-xl-2 col-lg-3 col-sm-4">
         
+
+
+
 
 
 
@@ -233,14 +178,14 @@ Fullpage example
   <ul class="nav flex-column sidebar-submenu">
     
       <li class="nav-item sidebar-link">
-        <a class="nav-link" href="/flux-docs/en/example/subpage/">
+        <a class="nav-link" href="/flux-docs/en/example/section-page/">
 
 
 
 
 <i class="fx-icon fas fa-file" style="color: #333"></i>
 
-Subpage
+Section as page
         </a>
       </li>
       
@@ -279,6 +224,32 @@ Page
 
       
     
+      <li class="nav-item sidebar-link">
+        <a class="nav-link" href="/flux-docs/en/example/fluid-only/">
+
+
+
+
+<i class="fx-icon fas fa-file" style="color: #333"></i>
+
+Page fluid param only
+        </a>
+      </li>
+      
+    
+      <li class="nav-item sidebar-link">
+        <a class="nav-link" href="/flux-docs/en/example/fullmenu-only/">
+
+
+
+
+<i class="fx-icon fas fa-file" style="color: #333"></i>
+
+Page fullmenu param only
+        </a>
+      </li>
+      
+    
   </ul>
 
       
@@ -291,13 +262,85 @@ Page
 
 
       </div>
+      <div class="content-box col-xl-10 col-lg-9 col-sm-8">
+
+
+
+
+
+
+<div class="page-toc page-toc-fluid">
+  <label class="toc-label"><i class="fas fa-list-alt"></i> Table of Contents</label>
+  
+</div>
+
+
+<p>Normal page</p>
+
+
+
+  
+  
+  
+  
+    
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+
+    
+      <div class="container-fluid page-footer">
+        <div class="row">
+          <div class="col-6 nav-btn-container">
+              
+                <a href="/flux-docs/en/example/section-page/">
+                  <button class="btn flex-column">
+                    <i class="fas fa-chevron-left"></i>
+                    <span class="nav-btn-label">Section as page</span>
+                  </button>
+                </a>
+              
+          </div>
+          <div class="col-6 nav-btn-container">
+            
+              <a href="/flux-docs/en/example/subsection/">
+                <button class="btn flex-column">
+                  <i class="fas fa-chevron-right"></i>
+                  <span class="nav-btn-label">Sub-section</span>
+                </button></a>
+            
+          </div>
+        </div>
+      </div>
+    
+  
+
+</div>
     <a class="back-to-top" href="#page-top"><i class="fas fa-chevron-up"></i></a>
 </div>
 </div>
 
 
-
-<footer class="footer text-muted border-top">
+<footer class="footer text-muted">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-9 col-xs-12">
@@ -336,22 +379,25 @@ Page
     </div>
   </div>
 </footer>
+
+  </div>
 <script type="text/javascript">
   var baseurl = '\/flux-docs\/en\/';
   var showContentSearch =  false ;
   var linkCopiedText = "Link copied to clipboard!";
 </script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1563497822"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1563497822"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1563497822"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1563497822"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1563497822"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1563497822"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1563497822"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1563497822"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1563497822"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1563497822"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/search.js?1563497822"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1563497822"></script>
-</body>
+<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1563511630"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1563511630"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1563511630"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1563511630"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1563511630"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1563511630"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1563511630"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1563511630"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1563511630"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1563511630"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/search.js?1563511630"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1563511630"></script>
+</div>
+  </body>
 </html>

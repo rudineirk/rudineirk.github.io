@@ -16,20 +16,20 @@
   "content": " Notice Examples A success notice  An info notice  A warning notice  An danger notice  Usage {{% notice success %}} A success notice {{% /notice %}} {{% notice info %}} An info notice {{% /notice %}} {{% notice warning %}} A warning notice {{% /notice %}} {{% notice danger %}} An danger notice {{% /notice %}}"
 },
 {
+  "uri": "/flux-docs/en/example/section-page/",
+  "title": "Section as page",
+  "section": "FluxDocs",
+  "tags": [],
+  "description": "",
+  "content": "Example section with page layout\n"
+},
+{
   "uri": "/flux-docs/en/example/subsection/sub-page-1/",
   "title": "Sub-page 1",
   "section": "Sub-section",
   "tags": [],
   "description": "",
   "content": "Sub-section page example 1\n"
-},
-{
-  "uri": "/flux-docs/en/example/subpage/",
-  "title": "Subpage",
-  "section": "FluxDocs",
-  "tags": [],
-  "description": "",
-  "content": "Example section with page layout\n"
 },
 {
   "uri": "/flux-docs/en/markdown/headers/",
@@ -118,6 +118,22 @@
   "tags": ["shortcodes"],
   "description": "",
   "content": " Icons Examples   tasks\n pen-square\n instagram\nlogo\nUsage # With fontawesome: {{\u0026lt; icon icon=\u0026#34;fa-tasks\u0026#34; \u0026gt;}} {{\u0026lt; icon icon=\u0026#34;fa-pen-square\u0026#34; color=\u0026#34;red\u0026#34; \u0026gt;}} {{\u0026lt; icon icon=\u0026#34;fa-instagram\u0026#34; brand=\u0026#34;true\u0026#34; \u0026gt;}} # With images: {{\u0026lt; icon icon=\u0026#34;/img/icon.svg\u0026#34; \u0026gt;}} Fontawesome\n"
+},
+{
+  "uri": "/flux-docs/en/example/fluid-only/",
+  "title": "Page fluid param only",
+  "section": "Fullpage example",
+  "tags": [],
+  "description": "",
+  "content": "Normal page with fluid param\n"
+},
+{
+  "uri": "/flux-docs/en/example/fullmenu-only/",
+  "title": "Page fullmenu param only",
+  "section": "Fullpage example",
+  "tags": [],
+  "description": "",
+  "content": "Normal page with fullmenu param\n"
 },
 {
   "uri": "/flux-docs/en/shortcodes/cards/",

@@ -19,5 +19,23 @@
       <description>Normal page</description>
     </item>
     
+    <item>
+      <title>Page fluid param only</title>
+      <link>https://rudineirk.github.io/flux-docs/en/example/fluid-only/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/en/example/fluid-only/</guid>
+      <description>Normal page with fluid param</description>
+    </item>
+    
+    <item>
+      <title>Page fullmenu param only</title>
+      <link>https://rudineirk.github.io/flux-docs/en/example/fullmenu-only/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/en/example/fullmenu-only/</guid>
+      <description>Normal page with fullmenu param</description>
+    </item>
+    
   </channel>
 </rss>

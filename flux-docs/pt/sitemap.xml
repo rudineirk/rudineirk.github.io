@@ -31,16 +31,16 @@
   </url>
   
   <url>
-    <loc>https://rudineirk.github.io/flux-docs/pt/example/subpage/</loc>
+    <loc>https://rudineirk.github.io/flux-docs/pt/example/section-page/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rudineirk.github.io/flux-docs/en/example/subpage/"
+                href="https://rudineirk.github.io/flux-docs/en/example/section-page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://rudineirk.github.io/flux-docs/pt/example/subpage/"
+                href="https://rudineirk.github.io/flux-docs/pt/example/section-page/"
                 />
   </url>
   
@@ -209,6 +209,34 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://rudineirk.github.io/flux-docs/pt/shortcodes/icons/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://rudineirk.github.io/flux-docs/pt/example/fluid-only/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rudineirk.github.io/flux-docs/en/example/fluid-only/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://rudineirk.github.io/flux-docs/pt/example/fluid-only/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://rudineirk.github.io/flux-docs/pt/example/fullmenu-only/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rudineirk.github.io/flux-docs/en/example/fullmenu-only/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://rudineirk.github.io/flux-docs/pt/example/fullmenu-only/"
                 />
   </url>
   
