@@ -24,6 +24,14 @@
   "content": "Exemplo de seção com layout de página\n"
 },
 {
+  "uri": "/flux-docs/pt/example/subsection/sub-page-1/",
+  "title": "Sub-página 1",
+  "section": "Sub-seção",
+  "tags": [],
+  "description": "",
+  "content": "Exemplo de página de sub-seção 1\n"
+},
+{
   "uri": "/flux-docs/pt/markdown/headers/",
   "title": "Títulos e Cabeçalhos",
   "section": "Markdown",
@@ -64,6 +72,14 @@
   "content": ""
 },
 {
+  "uri": "/flux-docs/pt/example/subsection/sub-page-2/",
+  "title": "Sub-página 2",
+  "section": "Sub-seção",
+  "tags": [],
+  "description": "",
+  "content": "Exemplo de página de sub-seção 2\n"
+},
+{
   "uri": "/flux-docs/pt/markdown/tables/",
   "title": "Tabelas",
   "section": "Markdown",
@@ -74,10 +90,18 @@
 {
   "uri": "/flux-docs/pt/example/page/",
   "title": "Página",
-  "section": "Exemplos",
+  "section": "Exemplo de página cheia",
   "tags": [],
   "description": "",
   "content": "Página normal\n"
+},
+{
+  "uri": "/flux-docs/pt/example/subsection/",
+  "title": "Sub-seção",
+  "section": "FluxDocs",
+  "tags": [],
+  "description": "",
+  "content": "Exemplo de sub-seção\n"
 },
 {
   "uri": "/flux-docs/pt/markdown/code-highlight/",
@@ -105,11 +129,11 @@
 },
 {
   "uri": "/flux-docs/pt/example/",
-  "title": "Exemplos",
+  "title": "Exemplo de página cheia",
   "section": "FluxDocs",
   "tags": [],
-  "description": "Exemplos",
-  "content": ""
+  "description": "Parâmetros fluid e fullmenu",
+  "content": "Exemplo com parâmetros fluid e fullmenu habilitados\n"
 },
 {
   "uri": "/flux-docs/pt/shortcodes/media/",

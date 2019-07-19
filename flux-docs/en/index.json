@@ -16,6 +16,14 @@
   "content": " Notice Examples A success notice  An info notice  A warning notice  An danger notice  Usage {{% notice success %}} A success notice {{% /notice %}} {{% notice info %}} An info notice {{% /notice %}} {{% notice warning %}} A warning notice {{% /notice %}} {{% notice danger %}} An danger notice {{% /notice %}}"
 },
 {
+  "uri": "/flux-docs/en/example/subsection/sub-page-1/",
+  "title": "Sub-page 1",
+  "section": "Sub-section",
+  "tags": [],
+  "description": "",
+  "content": "Sub-section page example 1\n"
+},
+{
   "uri": "/flux-docs/en/example/subpage/",
   "title": "Subpage",
   "section": "FluxDocs",
@@ -64,6 +72,14 @@
   "content": ""
 },
 {
+  "uri": "/flux-docs/en/example/subsection/sub-page-2/",
+  "title": "Sub-page 2",
+  "section": "Sub-section",
+  "tags": [],
+  "description": "",
+  "content": "Sub-section page example 2\n"
+},
+{
   "uri": "/flux-docs/en/markdown/tables/",
   "title": "Tables",
   "section": "Markdown",
@@ -74,10 +90,18 @@
 {
   "uri": "/flux-docs/en/example/page/",
   "title": "Page",
-  "section": "Example",
+  "section": "Fullpage example",
   "tags": [],
   "description": "",
   "content": "Normal page\n"
+},
+{
+  "uri": "/flux-docs/en/example/subsection/",
+  "title": "Sub-section",
+  "section": "FluxDocs",
+  "tags": [],
+  "description": "",
+  "content": "Example sub-section\n"
 },
 {
   "uri": "/flux-docs/en/markdown/code-highlight/",
@@ -105,11 +129,11 @@
 },
 {
   "uri": "/flux-docs/en/example/",
-  "title": "Example",
+  "title": "Fullpage example",
   "section": "FluxDocs",
   "tags": [],
-  "description": "Examples",
-  "content": ""
+  "description": "Fluid and fullmenu params",
+  "content": "Example with fluid and fullmenu parameters enabled\n"
 },
 {
   "uri": "/flux-docs/en/shortcodes/media/",

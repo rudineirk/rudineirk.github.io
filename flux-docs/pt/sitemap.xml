@@ -45,6 +45,20 @@
   </url>
   
   <url>
+    <loc>https://rudineirk.github.io/flux-docs/pt/example/subsection/sub-page-1/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rudineirk.github.io/flux-docs/en/example/subsection/sub-page-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://rudineirk.github.io/flux-docs/pt/example/subsection/sub-page-1/"
+                />
+  </url>
+  
+  <url>
     <loc>https://rudineirk.github.io/flux-docs/pt/markdown/headers/</loc>
     <xhtml:link
                 rel="alternate"
@@ -115,6 +129,20 @@
   </url>
   
   <url>
+    <loc>https://rudineirk.github.io/flux-docs/pt/example/subsection/sub-page-2/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rudineirk.github.io/flux-docs/en/example/subsection/sub-page-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://rudineirk.github.io/flux-docs/pt/example/subsection/sub-page-2/"
+                />
+  </url>
+  
+  <url>
     <loc>https://rudineirk.github.io/flux-docs/pt/markdown/tables/</loc>
     <xhtml:link
                 rel="alternate"
@@ -139,6 +167,20 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://rudineirk.github.io/flux-docs/pt/example/page/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://rudineirk.github.io/flux-docs/pt/example/subsection/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rudineirk.github.io/flux-docs/en/example/subsection/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://rudineirk.github.io/flux-docs/pt/example/subsection/"
                 />
   </url>
   

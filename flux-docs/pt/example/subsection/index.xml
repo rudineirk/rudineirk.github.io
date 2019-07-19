@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sub-seção on Tema FluxDocs</title>
+    <link>https://rudineirk.github.io/flux-docs/pt/example/subsection/</link>
+    <description>Recent content in Sub-seção on Tema FluxDocs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    
+	<atom:link href="https://rudineirk.github.io/flux-docs/pt/example/subsection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sub-página 1</title>
+      <link>https://rudineirk.github.io/flux-docs/pt/example/subsection/sub-page-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/pt/example/subsection/sub-page-1/</guid>
+      <description>Exemplo de página de sub-seção 1</description>
+    </item>
+    
+    <item>
+      <title>Sub-página 2</title>
+      <link>https://rudineirk.github.io/flux-docs/pt/example/subsection/sub-page-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudineirk.github.io/flux-docs/pt/example/subsection/sub-page-2/</guid>
+      <description>Exemplo de página de sub-seção 2</description>
+    </item>
+    
+  </channel>
+</rss>
