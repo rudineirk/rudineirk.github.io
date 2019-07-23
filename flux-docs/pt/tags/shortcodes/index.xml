@@ -38,7 +38,7 @@
  caneta-quadrado (pen-square)
  instagram
 logo
-Uso # Com fontawesome: {{&amp;lt; icon icon=&amp;#34;fa-tasks&amp;#34; &amp;gt;}} {{&amp;lt; icon icon=&amp;#34;fa-pen-square&amp;#34; color=&amp;#34;red&amp;#34; &amp;gt;}} {{&amp;lt; icon icon=&amp;#34;fa-instagram&amp;#34; brand=&amp;#34;true&amp;#34; &amp;gt;}} # Com images: {{&amp;lt; icon icon=&amp;#34;/img/icon.svg&amp;#34; &amp;gt;}} Fontawesome</description>
+Uso # Com fontawesome: {{&amp;lt; icon icon=&amp;#34;fa-tasks&amp;#34; &amp;gt;}} {{&amp;lt; icon icon=&amp;#34;fa-pen-square&amp;#34; color=&amp;#34;red&amp;#34; &amp;gt;}} {{&amp;lt; icon icon=&amp;#34;fa-instagram&amp;#34; brand=&amp;#34;true&amp;#34; &amp;gt;}} # Com images: {{&amp;lt; icon icon=&amp;#34;/flux-docs/img/icon.svg&amp;#34; &amp;gt;}} Fontawesome</description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@ Uso # Com 3 cards por linha em telas médias e maiores: {{% cards %}} {{% card l
       <guid>https://rudineirk.github.io/flux-docs/pt/shortcodes/media/</guid>
       <description> Imagens e videos Exemplos Video
  Imagem
-Uso {{% video url=&amp;#34;/video/video-url&amp;#34; width=&amp;#34;480&amp;#34; height=&amp;#34;348&amp;#34; controls=&amp;#34;false&amp;#34; muted=&amp;#34;true&amp;#34; autoplay=&amp;#34;true&amp;#34; %}} {{% image url=&amp;#34;/video/video-url&amp;#34; width=&amp;#34;480&amp;#34; height=&amp;#34;348&amp;#34; %}}</description>
+Uso {{% video url=&amp;#34;/video/video-url&amp;#34; width=&amp;#34;480&amp;#34; height=&amp;#34;348&amp;#34; controls=&amp;#34;false&amp;#34; muted=&amp;#34;true&amp;#34; autoplay=&amp;#34;true&amp;#34; align=&amp;#34;center&amp;#34; %}} {{% image url=&amp;#34;/video/video-url&amp;#34; width=&amp;#34;480&amp;#34; height=&amp;#34;348&amp;#34; align=&amp;#34;center&amp;#34; %}}</description>
     </item>
     
     <item>
