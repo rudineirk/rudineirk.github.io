@@ -1,6 +1,11 @@
+html {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
 body {
   background-color: transparent;
   min-height: 100vh;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 .flux-docs {
@@ -145,6 +150,7 @@ code {
   color: #2e2e2e;
   background: #FFF7DD;
   border: 1px solid #fbf0cb;
+  font-family: 'Fira Mono', monospace;
 }
 
 pre code {
@@ -460,8 +466,16 @@ pre.chroma {
   font-size: 1.8rem;
 }
 
+.banner h2.text-stroke {
+  text-shadow: -1px 0 #ccc, 0 1px #ccc, 1px 0 #ccc, 0 -1px #ccc;
+}
+
 .banner.text-white h2 {
   color: #f1f1f1;
+}
+
+.banner.text-white h2.text-stroke {
+  text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
 }
 /* ---------------- */
 
@@ -933,5 +947,12 @@ pre.chroma {
 .changelog-row .changelog-image img {
   width: 100%;
   cursor: pointer;
+}
+/* ---------------- */
+
+/* mermaid */
+.mermaid .label {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Arial', sans-serif !important;
+  font-size: 14px !important;
 }
 /* ---------------- */
