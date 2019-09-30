@@ -340,7 +340,6 @@
   
   <url>
     <loc>https://rudineirk.github.io/flux-docs/pt/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -368,23 +367,7 @@
   </url>
   
   <url>
-    <loc>https://rudineirk.github.io/flux-docs/pt/tags/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rudineirk.github.io/flux-docs/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://rudineirk.github.io/flux-docs/pt/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://rudineirk.github.io/flux-docs/pt/tags/markdown/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -399,7 +382,6 @@
   
   <url>
     <loc>https://rudineirk.github.io/flux-docs/pt/tags/shortcodes/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -409,6 +391,20 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://rudineirk.github.io/flux-docs/pt/tags/shortcodes/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://rudineirk.github.io/flux-docs/pt/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rudineirk.github.io/flux-docs/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://rudineirk.github.io/flux-docs/pt/tags/"
                 />
   </url>
   

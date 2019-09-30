@@ -64,7 +64,9 @@ Usage # With 3 cards per row on medium screens and up: {{% cards %}} {{% card li
       
       <guid>https://rudineirk.github.io/flux-docs/en/shortcodes/media/</guid>
       <description> Images and videos Examples Video
- Image
+ 
+Image
+
 Usage {{% video url=&amp;#34;/flux-docs/video/video-url&amp;#34; width=&amp;#34;480&amp;#34; height=&amp;#34;348&amp;#34; controls=&amp;#34;false&amp;#34; muted=&amp;#34;true&amp;#34; autoplay=&amp;#34;true&amp;#34; align=&amp;#34;center&amp;#34; %}} {{% image url=&amp;#34;/flux-docs/img/image-url&amp;#34; width=&amp;#34;480&amp;#34; height=&amp;#34;348&amp;#34; align=&amp;#34;center&amp;#34; %}}</description>
     </item>
     

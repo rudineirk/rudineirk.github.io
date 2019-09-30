@@ -122,6 +122,10 @@ hr {
   border-bottom: 4px solid #DAE2EA;
 }
 
+.featherlight-content video {
+  width: 100% !important;
+}
+
 .datatables {
   display: none;
 }
@@ -337,11 +341,18 @@ pre.chroma {
   }
 }
 
+@media (min-width:1600px) {
+  .container {
+    max-width: 1540px;
+  }
+}
+
 @media (min-width:1700px) {
   .page-toc {
     position: sticky;
     top: 20px;
-    margin-left: -280px;
+    margin-left: auto;
+    margin-right: -300px;
     height: 0;
     width: 270px;
   }
@@ -560,6 +571,7 @@ pre.chroma {
 
 .sidebar-link .fx-icon {
   width: 32px;
+  margin-right: 6px;
   font-size: 32px;
 }
 

@@ -25,7 +25,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rudineirk.github.io/flux-docs/pt/markdown/formatting/</guid>
-      <description>Formatação Sintaxe básica    Elemento Sintaxe markdown     Negrito **Negrito**   Itálico _Itálico_   Riscado ~~Riscado~~   código na linha `código na linha`   Link [Link](https://google.com/), [Link](/site/url)   - Imagem ![Imagem](https://google.com/logo.png), ![Título da imagem](/image/url)    Listas ordenadas  Primeiro item Segundo item  Primeiro sub-item Segundo sub-item  Terceiro sub-item  1. Primeiro item 1. Segundo item 1.</description>
+      <description>Formatação Sintaxe básica    Elemento Sintaxe markdown     Negrito **Negrito**   Itálico _Itálico_   Riscado ~~Riscado~~   código na linha `código na linha`   Link [Link](https://google.com/), [Link](/site/url)   - Imagem ![Imagem](https://google.com/logo.png), ![Título da imagem](/image/url)    Listas ordenadas  Primeiro item Segundo item  Primeiro sub-item Segundo sub-item  Terceiro sub-item
+1. Primeiro item 1. Segundo item 1. Primeiro sub-item 1.</description>
     </item>
     
     <item>
