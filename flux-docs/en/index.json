@@ -157,7 +157,7 @@
   "section": "Shortcodes",
   "tags": ["shortcodes"],
   "description": "",
-  "content": " Images and videos Examples Video\n \nImage\n\nUsage {{% video url=\u0026#34;/flux-docs/video/video-url\u0026#34; width=\u0026#34;480\u0026#34; height=\u0026#34;348\u0026#34; controls=\u0026#34;false\u0026#34; muted=\u0026#34;true\u0026#34; autoplay=\u0026#34;true\u0026#34; align=\u0026#34;center\u0026#34; %}} {{% image url=\u0026#34;/flux-docs/img/image-url\u0026#34; width=\u0026#34;480\u0026#34; height=\u0026#34;348\u0026#34; align=\u0026#34;center\u0026#34; %}}"
+  "content": " Images and videos Examples Video\n \nImage\n\nUsage {{% video url=\u0026#34;/flux-docs/video/video-url\u0026#34; width=\u0026#34;480px\u0026#34; height=\u0026#34;348px\u0026#34; controls=\u0026#34;false\u0026#34; muted=\u0026#34;true\u0026#34; autoplay=\u0026#34;true\u0026#34; align=\u0026#34;center\u0026#34; %}} {{% image url=\u0026#34;/flux-docs/img/image-url\u0026#34; width=\u0026#34;480px\u0026#34; height=\u0026#34;348px\u0026#34; align=\u0026#34;center\u0026#34; %}}"
 },
 {
   "uri": "/flux-docs/en/shortcodes/mermaid/",

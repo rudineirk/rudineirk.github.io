@@ -67,7 +67,7 @@ Uso # Com 3 cards por linha em telas médias e maiores: {{% cards %}} {{% card l
  
 Imagem
 
-Uso {{% video url=&amp;#34;/video/video-url&amp;#34; width=&amp;#34;480&amp;#34; height=&amp;#34;348&amp;#34; controls=&amp;#34;false&amp;#34; muted=&amp;#34;true&amp;#34; autoplay=&amp;#34;true&amp;#34; align=&amp;#34;center&amp;#34; %}} {{% image url=&amp;#34;/video/video-url&amp;#34; width=&amp;#34;480&amp;#34; height=&amp;#34;348&amp;#34; align=&amp;#34;center&amp;#34; %}}</description>
+Uso {{% video url=&amp;#34;/video/video-url&amp;#34; width=&amp;#34;480px&amp;#34; height=&amp;#34;348px&amp;#34; controls=&amp;#34;false&amp;#34; muted=&amp;#34;true&amp;#34; autoplay=&amp;#34;true&amp;#34; align=&amp;#34;center&amp;#34; %}} {{% image url=&amp;#34;/video/video-url&amp;#34; width=&amp;#34;480px&amp;#34; height=&amp;#34;348px&amp;#34; align=&amp;#34;center&amp;#34; %}}</description>
     </item>
     
     <item>
