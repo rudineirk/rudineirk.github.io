@@ -28,13 +28,13 @@
 <meta name="twitter:title" content="Code Highlight :: FluxDocs Theme" />
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Fira+Mono&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/featherlight/featherlight.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/css/theme.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/css/code-highlight.css?1569875291" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/featherlight/featherlight.min.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/css/theme.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/css/code-highlight.css?1575634876" rel="stylesheet" type="text/css">
 </head>
   <body>
     
@@ -216,13 +216,14 @@
 <div class="page-toc d-print-none ">
   <label class="toc-label"><i class="fas fa-list-alt"></i> Table of Contents</label>
   <nav id="TableOfContents">
-<ul>
-<li><a href="#code-highlight">Code Highlight</a>
-<ul>
-<li><a href="#examples">Examples</a></li>
-<li><a href="#usage">Usage</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#code-highlight">Code Highlight</a>
+      <ul>
+        <li><a href="#examples">Examples</a></li>
+        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 </div>
 
@@ -234,37 +235,32 @@
   
 </div>
 
-
-
 <h1 id="code-highlight">Code Highlight</h1>
-
 <h2 id="examples">Examples</h2>
-
 <p>Inline code <code>print(x + &quot;a&quot;)</code> example</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Bash example</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Bash example</span>
 
-<span class="k">function</span> show_help<span class="o">()</span> <span class="o">{</span>
-  <span class="nb">echo</span> <span class="s2">&#34;Usage:
-</span><span class="s2">  script.sh &lt;param&gt;
-</span><span class="s2">
-</span><span class="s2">  param - Parameter
-</span><span class="s2">&#34;</span>
-<span class="o">}</span>
+<span style="color:#66d9ef">function</span> show_help<span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+  echo <span style="color:#e6db74">&#34;Usage:
+</span><span style="color:#e6db74">  script.sh &lt;param&gt;
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">  param - Parameter
+</span><span style="color:#e6db74">&#34;</span>
+<span style="color:#f92672">}</span>
 
-show_help <span class="s2">&#34;</span><span class="si">${</span><span class="nv">HOST</span><span class="si">}</span><span class="s2">&#34;</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Python example</span>
+show_help <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>HOST<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Python example</span>
 
-<span class="k">def</span> <span class="nf">sum</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">sum</span>(a, b):
+    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b
 
-<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;result: {0}&#34;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+    result <span style="color:#f92672">=</span> sum(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">result: {0}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(result))
 
-<span class="n">main</span><span class="p">()</span></code></pre></div>
-<h2 id="usage">Usage</h2>
-
-<pre><code class="language-markdown">
-Inline code `print(x + "a")` example
+main()
+</code></pre></div><h2 id="usage">Usage</h2>
+<pre><code>Inline code `print(x + &quot;a&quot;)` example
 
 ```python
 # Python example
@@ -274,7 +270,7 @@ def sum(a, b):
 
 def main():
     result = sum(1, 2)
-    print("result: {0}".format(result))
+    print(&quot;result: {0}&quot;.format(result))
 
 main()
 ```
@@ -381,19 +377,19 @@ main()
   var showContentSearch =  false ;
   var linkCopiedText = "Link copied to clipboard!";
 </script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/featherlight/featherlight.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/search.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1569875291"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/featherlight/featherlight.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/search.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1575634876"></script>
 </div>
   </body>
 </html>

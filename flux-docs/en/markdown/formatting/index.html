@@ -28,13 +28,13 @@
 <meta name="twitter:title" content="Formatting :: FluxDocs Theme" />
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Fira+Mono&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/featherlight/featherlight.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/css/theme.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/css/code-highlight.css?1569875291" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/featherlight/featherlight.min.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/css/theme.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/css/code-highlight.css?1575634875" rel="stylesheet" type="text/css">
 </head>
   <body>
     
@@ -216,16 +216,17 @@
 <div class="page-toc d-print-none ">
   <label class="toc-label"><i class="fas fa-list-alt"></i> Table of Contents</label>
   <nav id="TableOfContents">
-<ul>
-<li><a href="#formatting">Formatting</a>
-<ul>
-<li><a href="#basic-syntax">Basic syntax</a></li>
-<li><a href="#ordered-lists">Ordered Lists</a></li>
-<li><a href="#unordered-lists">Unordered Lists</a></li>
-<li><a href="#blockquote">Blockquote</a></li>
-<li><a href="#horizontal-line">Horizontal Line</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#formatting">Formatting</a>
+      <ul>
+        <li><a href="#basic-syntax">Basic syntax</a></li>
+        <li><a href="#ordered-lists">Ordered Lists</a></li>
+        <li><a href="#unordered-lists">Unordered Lists</a></li>
+        <li><a href="#blockquote">Blockquote</a></li>
+        <li><a href="#horizontal-line">Horizontal Line</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 </div>
 
@@ -237,12 +238,8 @@
   
 </div>
 
-
-
 <h1 id="formatting">Formatting</h1>
-
 <h2 id="basic-syntax">Basic syntax</h2>
-
 <table>
 <thead>
 <tr>
@@ -250,94 +247,79 @@
 <th>Markdown syntax</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td><strong>Bold</strong></td>
 <td><code>**Bold**</code></td>
 </tr>
-
 <tr>
 <td><em>Italic</em></td>
 <td><code>_Italic_</code></td>
 </tr>
-
 <tr>
 <td><del>Strikethrough</del></td>
 <td><code>~~Strikethrough~~</code></td>
 </tr>
-
 <tr>
 <td><code>inline code</code></td>
 <td><code>`inline code`</code></td>
 </tr>
-
 <tr>
 <td><a href="https://google.com/">Link</a></td>
 <td><code>[Link](https://google.com/)</code>, <code>[Link](/site/url)</code></td>
 </tr>
-
 <tr>
-<td><img src="/flux-docs/img/github-32px.png" alt="Image" /> - Image</td>
+<td><img src="/flux-docs/img/github-32px.png" alt="Image"> - Image</td>
 <td><code>![Image](https://google.com/logo.png)</code>, <code>![Image title](/image/url)</code></td>
 </tr>
 </tbody>
 </table>
-
 <h2 id="ordered-lists">Ordered Lists</h2>
-
 <ol>
 <li>First item</li>
 <li>Second item
-
 <ol>
 <li>First Sub-item</li>
 <li>Second Sub-item</li>
-</ol></li>
-
-<li><p>Third item</p>
-<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">1.</span> First item
-<span class="k">1.</span> Second item
-<span class="k">1.</span> First Sub-item
-<span class="k">1.</span> Second Sub-item
-1. Third item</code></pre></div></li>
 </ol>
-
-<h2 id="unordered-lists">Unordered Lists</h2>
-
+</li>
+<li>Third item</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">1.</span> First item
+<span style="color:#66d9ef">1.</span> Second item
+    <span style="color:#66d9ef">1.</span> First Sub-item
+    <span style="color:#66d9ef">1.</span> Second Sub-item
+<span style="color:#66d9ef">1.</span> Third item
+</code></pre></div><h2 id="unordered-lists">Unordered Lists</h2>
 <ul>
 <li>First item</li>
 <li>Second item
-
 <ul>
 <li>First Sub-item</li>
 <li>Second Sub-item</li>
-</ul></li>
-
-<li><p>Third item</p>
-<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">*</span> First item
-<span class="k">*</span> Second item
-<span class="k">*</span> First Sub-item
-<span class="k">*</span> Second Sub-item
-* Third item</code></pre></div></li>
 </ul>
-
-<h2 id="blockquote">Blockquote</h2>
-
+</li>
+<li>Third item</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">*</span> First item
+<span style="color:#66d9ef">*</span> Second item
+    <span style="color:#66d9ef">*</span> First Sub-item
+    <span style="color:#66d9ef">*</span> Second Sub-item
+<span style="color:#66d9ef">*</span> Third item
+</code></pre></div><h2 id="blockquote">Blockquote</h2>
 <blockquote>
 <p>Blockquote</p>
-
 <p>with multiple lines</p>
 </blockquote>
-<div class="highlight"><pre class="chroma">&gt; blockquote
+<pre><code>&gt; blockquote
 &gt;
-&gt; with multiple lines</pre></div>
-<h2 id="horizontal-line">Horizontal Line</h2>
+&gt; with multiple lines
+</code></pre><h2 id="horizontal-line">Horizontal Line</h2>
+<hr>
+<pre><code>Example:
 
-<hr />
-<div class="highlight"><pre class="chroma">Example:
-
----</pre></div>
+---
+</code></pre>
 
 
   
@@ -443,19 +425,19 @@
   var showContentSearch =  false ;
   var linkCopiedText = "Link copied to clipboard!";
 </script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/featherlight/featherlight.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/search.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1569875291"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/featherlight/featherlight.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/search.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1575634875"></script>
 </div>
   </body>
 </html>

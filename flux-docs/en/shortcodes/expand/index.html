@@ -28,13 +28,13 @@
 <meta name="twitter:title" content="Expand :: FluxDocs Theme" />
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Fira+Mono&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/featherlight/featherlight.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/css/theme.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/css/code-highlight.css?1569875291" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/featherlight/featherlight.min.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/css/theme.css?1575634875" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/css/code-highlight.css?1575634875" rel="stylesheet" type="text/css">
 </head>
   <body>
     
@@ -236,13 +236,14 @@
 <div class="page-toc d-print-none ">
   <label class="toc-label"><i class="fas fa-list-alt"></i> Table of Contents</label>
   <nav id="TableOfContents">
-<ul>
-<li><a href="#expand">Expand</a>
-<ul>
-<li><a href="#examples">Examples</a></li>
-<li><a href="#usage">Usage</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#expand">Expand</a>
+      <ul>
+        <li><a href="#examples">Examples</a></li>
+        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 </div>
 
@@ -254,33 +255,24 @@
   
 </div>
 
-
-
 <h1 id="expand">Expand</h1>
-
 <h2 id="examples">Examples</h2>
-
 <div class="expand">
-  <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-    <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
-    <span>
-      
-      
-      Click here
-      
-    </span>
-  </div>
-  <div class="expand-content" style="display: none;">
-    
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis quis diam luctus venenatis. Integer consectetur tortor non varius posuere. Vivamus vel felis nunc. Mauris nec hendrerit sem, ullamcorper ullamcorper eros. Morbi feugiat, neque non pellentesque consequat, tortor nulla sagittis orci, id consectetur diam risus et quam. Pellentesque tincidunt purus in nisl egestas, porta feugiat libero mollis. Integer maximus libero ligula, id dignissim dolor cursus sit amet. Ut consequat id erat ac ultrices. Mauris dapibus accumsan nisl, ac lacinia ante interdum at. Curabitur varius eros fringilla lectus dapibus consequat. Sed erat libero, mattis sit amet auctor blandit, mattis vel sem. Ut auctor lectus at quam pharetra, ac vehicula dui accumsan. Suspendisse congue quam eros, sit amet venenatis velit fringilla eget. Pellentesque gravida sit amet tellus rutrum malesuada. 
-
-  </div>
+<div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+<i style="font-size:x-small;" class="fas fa-chevron-right"></i>
+<span>
+<p>Click here</p>
+</span>
 </div>
-
+<div class="expand-content" style="display: none;">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis quis diam luctus venenatis. Integer consectetur tortor non varius posuere. Vivamus vel felis nunc. Mauris nec hendrerit sem, ullamcorper ullamcorper eros. Morbi feugiat, neque non pellentesque consequat, tortor nulla sagittis orci, id consectetur diam risus et quam. Pellentesque tincidunt purus in nisl egestas, porta feugiat libero mollis. Integer maximus libero ligula, id dignissim dolor cursus sit amet. Ut consequat id erat ac ultrices. Mauris dapibus accumsan nisl, ac lacinia ante interdum at. Curabitur varius eros fringilla lectus dapibus consequat. Sed erat libero, mattis sit amet auctor blandit, mattis vel sem. Ut auctor lectus at quam pharetra, ac vehicula dui accumsan. Suspendisse congue quam eros, sit amet venenatis velit fringilla eget. Pellentesque gravida sit amet tellus rutrum malesuada.</p>
+</div>
+</div>
 <h2 id="usage">Usage</h2>
-<div class="highlight"><pre class="chroma">{{% expand &#34;Mensagem do expansor&#34; %}}
+<pre><code>{{% expand &quot;Mensagem do expansor&quot; %}}
 Expand content
-{{% /expand %}}</pre></div>
+{{% /expand %}}
+</code></pre>
 
 
   
@@ -406,19 +398,19 @@ Expand content
   var showContentSearch =  false ;
   var linkCopiedText = "Link copied to clipboard!";
 </script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/featherlight/featherlight.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/search.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1569875291"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/featherlight/featherlight.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/search.js?1575634875"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1575634875"></script>
 </div>
   </body>
 </html>

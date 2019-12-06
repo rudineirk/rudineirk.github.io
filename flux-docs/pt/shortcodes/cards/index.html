@@ -28,13 +28,13 @@
 <meta name="twitter:title" content="Cartões :: Tema FluxDocs" />
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Fira+Mono&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/featherlight/featherlight.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/css/theme.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/css/code-highlight.css?1569875291" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1575634877" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1575634877" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1575634877" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1575634877" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/featherlight/featherlight.min.css?1575634877" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/css/theme.css?1575634877" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/css/code-highlight.css?1575634877" rel="stylesheet" type="text/css">
 </head>
   <body>
     
@@ -236,13 +236,14 @@
 <div class="page-toc d-print-none ">
   <label class="toc-label"><i class="fas fa-list-alt"></i> Índice</label>
   <nav id="TableOfContents">
-<ul>
-<li><a href="#cards">Cards</a>
-<ul>
-<li><a href="#exemplos">Exemplos</a></li>
-<li><a href="#uso">Uso</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#cards">Cards</a>
+      <ul>
+        <li><a href="#exemplos">Exemplos</a></li>
+        <li><a href="#uso">Uso</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 </div>
 
@@ -254,87 +255,69 @@
   
 </div>
 
-
-
 <h1 id="cards">Cards</h1>
-
 <h2 id="exemplos">Exemplos</h2>
-
 <div class="container fx-cards">
-  <div class="row">
-    
-
-
+<div class="row">
 <div class="col-md-4 fx-card">
-  <a href="/basic">
-    <p><i class="fx-icon fas fa-tasks" style=""></i></p>
-
-<h4 id="básico">Básico</h4>
-
+<a href="/basic">
+<p><i class="fx-icon fas fa-tasks" style=""></i></p>
+<h4 id="bsico">Básico</h4>
 <p>Onde começar</p>
-
-  </a>
+</a>
 </div>
-
 <div class="col-md-4 fx-card">
-  <a href="/markdown">
-    <p><i class="fx-icon fas fa-pen-square" style=""></i></p>
-
+<a href="/markdown">
+<p><i class="fx-icon fas fa-pen-square" style=""></i></p>
 <h4 id="markdown">Markdown</h4>
-
 <p>Exemplos de markdown usando o tema</p>
-
-  </a>
+</a>
 </div>
-
 <div class="col-md-4 fx-card">
-  <a href="/shortcodes">
-    <p><i class="fx-icon fas fa-feather" style=""></i></p>
-
+<a href="/shortcodes">
+<p><i class="fx-icon fas fa-feather" style=""></i></p>
 <h4 id="shortcodes">Shortcodes</h4>
-
 <p>Funcionalidades customizadas do tema</p>
-
-  </a>
+</a>
 </div>
-
-<p></div>
-</div></p>
-
+</div>
+</div>
 <h2 id="uso">Uso</h2>
-<div class="highlight"><pre class="chroma"># Com 3 cards por linha em telas médias e maiores:
+<pre><code># Com 3 cards por linha em telas médias e maiores:
 
 {{% cards %}}
-{{% card link=&#34;/link1&#34; %}}
-{{&lt; icon icon=&#34;fa-tasks&#34; &gt;}}
+{{% card link=&quot;/link1&quot; %}}
+{{&lt; icon icon=&quot;fa-tasks&quot; &gt;}}
 #### Card 1
 
 Descrição do card
 {{% /card %}}
 
-{{% card link=&#34;/link2&#34; %}}
-{{&lt; icon icon=&#34;fa-pen-square&#34; &gt;}}
+{{% card link=&quot;/link2&quot; %}}
+{{&lt; icon icon=&quot;fa-pen-square&quot; &gt;}}
 #### Card 2
 
 Descrição do card
 {{% /card %}}
-{{% /cards %}}</pre></div><div class="highlight"><pre class="chroma"># Com 4 cards por linha em telas médias e maiores:
+{{% /cards %}}
+</code></pre><pre><code># Com 4 cards por linha em telas médias e maiores:
 
 {{% cards %}}
-{{% card link=&#34;/link1&#34; size=&#34;4&#34; %}}
-{{&lt; icon icon=&#34;fa-tasks&#34; &gt;}}
+{{% card link=&quot;/link1&quot; size=&quot;4&quot; %}}
+{{&lt; icon icon=&quot;fa-tasks&quot; &gt;}}
 #### Card 1
 
 Descrição do card
 {{% /card %}}
 
-{{% card link=&#34;/link2&#34; size=&#34;4&#34; %}}
-{{&lt; icon icon=&#34;fa-pen-square&#34; &gt;}}
+{{% card link=&quot;/link2&quot; size=&quot;4&quot; %}}
+{{&lt; icon icon=&quot;fa-pen-square&quot; &gt;}}
 #### Card 2
 
 Descrição do card
 {{% /card %}}
-{{% /cards %}}</pre></div>
+{{% /cards %}}
+</code></pre>
 
 
   
@@ -460,19 +443,19 @@ Descrição do card
   var showContentSearch =  false ;
   var linkCopiedText = "Link copiado para área de transferência!";
 </script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/featherlight/featherlight.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/search.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1569875291"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/featherlight/featherlight.min.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/search.js?1575634877"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1575634877"></script>
 </div>
   </body>
 </html>

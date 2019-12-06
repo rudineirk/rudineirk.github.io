@@ -28,13 +28,13 @@
 <meta name="twitter:title" content="Tables :: FluxDocs Theme" />
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Fira+Mono&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/vendor/featherlight/featherlight.min.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/css/theme.css?1569875291" rel="stylesheet" type="text/css">
-<link href="/flux-docs/assets/css/code-highlight.css?1569875291" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/fontawesome/css/all.min.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/bootstrap/bootstrap.min.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/auto-complete/auto-complete.min.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/vendor/featherlight/featherlight.min.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/css/theme.css?1575634876" rel="stylesheet" type="text/css">
+<link href="/flux-docs/assets/css/code-highlight.css?1575634876" rel="stylesheet" type="text/css">
 </head>
   <body>
     
@@ -216,14 +216,15 @@
 <div class="page-toc d-print-none ">
   <label class="toc-label"><i class="fas fa-list-alt"></i> Table of Contents</label>
   <nav id="TableOfContents">
-<ul>
-<li><a href="#tables">Tables</a>
-<ul>
-<li><a href="#simple-table">Simple table</a></li>
-<li><a href="#table-column-text-alignment">Table column text alignment</a></li>
-<li><a href="#table-data-pagination">Table Data pagination</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#tables">Tables</a>
+      <ul>
+        <li><a href="#simple-table">Simple table</a></li>
+        <li><a href="#table-column-text-alignment">Table column text alignment</a></li>
+        <li><a href="#table-data-pagination">Table Data pagination</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 </div>
 
@@ -235,12 +236,8 @@
   
 </div>
 
-
-
 <h1 id="tables">Tables</h1>
-
 <h2 id="simple-table">Simple table</h2>
-
 <table>
 <thead>
 <tr>
@@ -248,25 +245,22 @@
 <th>Column 2</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>aaa</td>
 <td>bbb</td>
 </tr>
-
 <tr>
-<td><img src="/flux-docs/img/github-32px.png" alt="Github" /> github</td>
+<td><img src="/flux-docs/img/github-32px.png" alt="Github"> github</td>
 <td>table data</td>
 </tr>
 </tbody>
 </table>
-<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">| Column title | Column 2 |
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">| Column title | Column 2 |
 | --- | --- |
 | aaa | bbb |
-| ![<span class="nt">Github</span>](<span class="na">/flux-docs/img/github-32px.png</span>) github | table data |</code></pre></div>
-<h2 id="table-column-text-alignment">Table column text alignment</h2>
-
+| ![<span style="color:#f92672">Github</span>](<span style="color:#a6e22e">/flux-docs/img/github-32px.png</span>) github | table data |
+</code></pre></div><h2 id="table-column-text-alignment">Table column text alignment</h2>
 <table>
 <thead>
 <tr>
@@ -275,14 +269,12 @@
 <th align="right">Right aligned</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td align="left">text</td>
 <td align="center">text</td>
 <td align="right">text</td>
 </tr>
-
 <tr>
 <td align="left">aa</td>
 <td align="center">bb</td>
@@ -290,14 +282,12 @@
 </tr>
 </tbody>
 </table>
-<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">| Left aligned | Center aligned | Right aligned |
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">| Left aligned | Center aligned | Right aligned |
 | :-- | :-: | --: |
 | text | text | text |
-| aa | bb | cc|</code></pre></div>
-<h2 id="table-data-pagination">Table Data pagination</h2>
-
+| aa | bb | cc|
+</code></pre></div><h2 id="table-data-pagination">Table Data pagination</h2>
 <div class="datatables"></div>
-
 <table>
 <thead>
 <tr>
@@ -309,7 +299,6 @@
 <th>Salary</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Tiger Nixon</td>
@@ -319,7 +308,6 @@
 <td>2011/04/25</td>
 <td>$320,800</td>
 </tr>
-
 <tr>
 <td>Garrett Winters</td>
 <td>Accountant</td>
@@ -328,7 +316,6 @@
 <td>2011/07/25</td>
 <td>$170,750</td>
 </tr>
-
 <tr>
 <td>Ashton Cox</td>
 <td>Junior Technical Author</td>
@@ -337,7 +324,6 @@
 <td>2009/01/12</td>
 <td>$86,000</td>
 </tr>
-
 <tr>
 <td>Cedric Kelly</td>
 <td>Senior Javascript Developer</td>
@@ -346,7 +332,6 @@
 <td>2012/03/29</td>
 <td>$433,060</td>
 </tr>
-
 <tr>
 <td>Airi Satou</td>
 <td>Accountant</td>
@@ -355,7 +340,6 @@
 <td>2008/11/28</td>
 <td>$162,700</td>
 </tr>
-
 <tr>
 <td>Brielle Williamson</td>
 <td>Integration Specialist</td>
@@ -364,7 +348,6 @@
 <td>2012/12/02</td>
 <td>$372,000</td>
 </tr>
-
 <tr>
 <td>Herrod Chandler</td>
 <td>Sales Assistant</td>
@@ -373,7 +356,6 @@
 <td>2012/08/06</td>
 <td>$137,500</td>
 </tr>
-
 <tr>
 <td>Rhona Davidson</td>
 <td>Integration Specialist</td>
@@ -382,7 +364,6 @@
 <td>2010/10/14</td>
 <td>$327,900</td>
 </tr>
-
 <tr>
 <td>Colleen Hurst</td>
 <td>Javascript Developer</td>
@@ -391,7 +372,6 @@
 <td>2009/09/15</td>
 <td>$205,500</td>
 </tr>
-
 <tr>
 <td>Sonya Frost</td>
 <td>Software Engineer</td>
@@ -400,7 +380,6 @@
 <td>2008/12/13</td>
 <td>$103,600</td>
 </tr>
-
 <tr>
 <td>Jena Gaines</td>
 <td>Office Manager</td>
@@ -409,7 +388,6 @@
 <td>2008/12/19</td>
 <td>$90,560</td>
 </tr>
-
 <tr>
 <td>Quinn Flynn</td>
 <td>Support Lead</td>
@@ -418,7 +396,6 @@
 <td>2013/03/03</td>
 <td>$342,000</td>
 </tr>
-
 <tr>
 <td>Charde Marshall</td>
 <td>Regional Director</td>
@@ -427,7 +404,6 @@
 <td>2008/10/16</td>
 <td>$470,600</td>
 </tr>
-
 <tr>
 <td>Haley Kennedy</td>
 <td>Senior Marketing Designer</td>
@@ -436,7 +412,6 @@
 <td>2012/12/18</td>
 <td>$313,500</td>
 </tr>
-
 <tr>
 <td>Tatyana Fitzpatrick</td>
 <td>Regional Director</td>
@@ -445,7 +420,6 @@
 <td>2010/03/17</td>
 <td>$385,750</td>
 </tr>
-
 <tr>
 <td>Michael Silva</td>
 <td>Marketing Designer</td>
@@ -454,7 +428,6 @@
 <td>2012/11/27</td>
 <td>$198,500</td>
 </tr>
-
 <tr>
 <td>Paul Byrd</td>
 <td>Chief Financial Officer (CFO)</td>
@@ -463,7 +436,6 @@
 <td>2010/06/09</td>
 <td>$725,000</td>
 </tr>
-
 <tr>
 <td>Gloria Little</td>
 <td>Systems Administrator</td>
@@ -472,7 +444,6 @@
 <td>2009/04/10</td>
 <td>$237,500</td>
 </tr>
-
 <tr>
 <td>Bradley Greer</td>
 <td>Software Engineer</td>
@@ -481,7 +452,6 @@
 <td>2012/10/13</td>
 <td>$132,000</td>
 </tr>
-
 <tr>
 <td>Dai Rios</td>
 <td>Personnel Lead</td>
@@ -490,7 +460,6 @@
 <td>2012/09/26</td>
 <td>$217,500</td>
 </tr>
-
 <tr>
 <td>Jenette Caldwell</td>
 <td>Development Lead</td>
@@ -499,7 +468,6 @@
 <td>2011/09/03</td>
 <td>$345,000</td>
 </tr>
-
 <tr>
 <td>Yuri Berry</td>
 <td>Chief Marketing Officer (CMO)</td>
@@ -508,7 +476,6 @@
 <td>2009/06/25</td>
 <td>$675,000</td>
 </tr>
-
 <tr>
 <td>Caesar Vance</td>
 <td>Pre-Sales Support</td>
@@ -517,7 +484,6 @@
 <td>2011/12/12</td>
 <td>$106,450</td>
 </tr>
-
 <tr>
 <td>Doris Wilder</td>
 <td>Sales Assistant</td>
@@ -526,7 +492,6 @@
 <td>2010/09/20</td>
 <td>$85,600</td>
 </tr>
-
 <tr>
 <td>Angelica Ramos</td>
 <td>Chief Executive Officer (CEO)</td>
@@ -535,7 +500,6 @@
 <td>2009/10/09</td>
 <td>$1,200,000</td>
 </tr>
-
 <tr>
 <td>Gavin Joyce</td>
 <td>Developer</td>
@@ -544,7 +508,6 @@
 <td>2010/12/22</td>
 <td>$92,575</td>
 </tr>
-
 <tr>
 <td>Jennifer Chang</td>
 <td>Regional Director</td>
@@ -553,7 +516,6 @@
 <td>2010/11/14</td>
 <td>$357,650</td>
 </tr>
-
 <tr>
 <td>Brenden Wagner</td>
 <td>Software Engineer</td>
@@ -562,7 +524,6 @@
 <td>2011/06/07</td>
 <td>$206,850</td>
 </tr>
-
 <tr>
 <td>Fiona Green</td>
 <td>Chief Operating Officer (COO)</td>
@@ -571,7 +532,6 @@
 <td>2010/03/11</td>
 <td>$850,000</td>
 </tr>
-
 <tr>
 <td>Shou Itou</td>
 <td>Regional Marketing</td>
@@ -580,7 +540,6 @@
 <td>2011/08/14</td>
 <td>$163,000</td>
 </tr>
-
 <tr>
 <td>Michelle House</td>
 <td>Integration Specialist</td>
@@ -591,17 +550,16 @@
 </tr>
 </tbody>
 </table>
-
-<hr />
-
+<hr>
 <p>Example:</p>
-<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">&lt;div class=&#34;datatables&#34;&gt;&lt;/div&gt;
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">{{% datatable %}}
 | Name | Age | Info |
 | --- | --- | --- |
 | Sarah | 28 | Something |
 | Bradd | 45 | Something else |
-| Ted | 23 | Other thing |</code></pre></div>
+| Ted | 23 | Other thing |
+{{% /datatable %}}
+</code></pre></div>
 
 
   
@@ -707,19 +665,19 @@
   var showContentSearch =  false ;
   var linkCopiedText = "Link copied to clipboard!";
 </script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/featherlight/featherlight.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/search.js?1569875291"></script>
-<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1569875291"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/jquery/jquery.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/popper/popper.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/bootstrap/bootstrap.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/lunr/lunr.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/auto-complete/auto-complete.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/clipboard/clipboard.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/jquery.datatables.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/datatables/datatables.bootstrap4.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/featherlight/featherlight.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/vendor/mermaid/mermaid.min.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/theme.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/search.js?1575634876"></script>
+<script type="text/javascript" src="/flux-docs/assets/js/roadmap.js?1575634876"></script>
 </div>
   </body>
 </html>
